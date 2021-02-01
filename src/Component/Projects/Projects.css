@@ -1,0 +1,64 @@
+.cnt-pr{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    justify-content: flex-start;
+ }
+ 
+ .cnt-box{
+     width: 100%;
+     height: 200px;
+     display: flex;
+     margin-top: 30px;
+     margin-left: 25px;
+ }
+ 
+ .box-slide-pr1{
+     width: 200px;
+     height: 200px;
+     background-image: url('/src/Images/Project-1.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+     border-radius: 100%;
+ }
+ 
+ .box-slide-pr2{
+     width: 200px;
+     height: 200px;
+     background-image: url('/src/Images/Project-2.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+     border-radius: 100%;
+ }
+ 
+ .descr{
+     display: none;
+ }
+ 
+ .slide_1:hover + .descr{
+     display: flex;
+     width: 350px;
+     height: 200px;
+     background-image: linear-gradient(90deg, #ffffff00, #ffffff78);
+     align-items: center;
+     padding: 15px;
+     border-radius: 0 5% 5% 0 ;
+ }
+
+.more{
+    font-size: 25px;
+    color: #ffc3c3;
+    animation-name: more-more;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: default;
+    margin-top: 32px;
+ }
+@keyframes more-more{
+    from{opacity: 0;}
+    to {opacity: 100%;}
+}

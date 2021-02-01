@@ -1,0 +1,11 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    margin: 10px;
+}
