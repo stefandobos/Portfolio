@@ -35,6 +35,17 @@
     border-radius: 100%;
 }
 
+.box-slide-3{
+    width: 200px;
+    height: 200px;
+    background-image: url('/src/Images/CH-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 100%;
+}
+
 .description{
     display: none;
 }

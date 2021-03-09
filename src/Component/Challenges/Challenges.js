@@ -14,6 +14,10 @@ function Challenges() {
                 <a className='box-slide-2 slide' href='https://ch-profile-card-component-main.vercel.app/'></a>
                 <div className='description'><div className='ds-cont'>This is a challenge from www.frontendmentro.io. Is a Profile card component. Only HTML and CSS  </div></div>
             </div>
+            <div className='cnt-bx'>
+                <a className='box-slide-3 slide' href='https://trump-inator.vercel.app/'></a>
+                <div className='description'><div className='ds-cont'>TRUMP-INATOR </div></div>
+            </div>
             
         </div>
     )
