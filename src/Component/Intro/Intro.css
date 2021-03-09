@@ -1,3 +1,13 @@
+@keyframes infinite{
+    from{opacity: 0;}
+    to {opacity: 100%;}
+}
+
+@keyframes avada-kedavra {
+    from {opacity: 0;}
+    to {opacity: 100%;}
+}
+
 .cnt-intro{
     display: inline;
     align-items: center;
@@ -13,11 +23,6 @@ p{
     cursor: default;
 }
 
-@keyframes infinite{
-    from{opacity: 0;}
-    to {opacity: 100%;}
-}
-
 .img-cont{
     width: 220px;
     height: 220px;
@@ -31,11 +36,6 @@ p{
     animation-duration: 2s;
     cursor: pointer;
     margin: auto;
-}
-
-@keyframes avada-kedavra {
-    from {opacity: 0;}
-    to {opacity: 100%;}
 }
 
 .cnt-ab{
