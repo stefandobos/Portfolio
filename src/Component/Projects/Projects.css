@@ -52,13 +52,6 @@
 .more{
     font-size: 25px;
     color: #ffc3c3;
-    animation-name: more-more;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
     cursor: default;
     margin-top: 32px;
  }
-@keyframes more-more{
-    from{opacity: 0;}
-    to {opacity: 100%;}
-}

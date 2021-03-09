@@ -1,13 +1,3 @@
-@keyframes infinite{
-    from{opacity: 0;}
-    to {opacity: 100%;}
-}
-
-@keyframes avada-kedavra {
-    from {opacity: 0;}
-    to {opacity: 100%;}
-}
-
 .cnt-intro{
     display: inline;
     align-items: center;
@@ -17,9 +7,6 @@
 p{
     font-size: 15px;
     color: #7e7e7e;
-    animation-name: infinite;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
     cursor: default;
 }
 
@@ -32,8 +19,6 @@ p{
     background-position: center;
     background-size: cover;
     border: 1px solid #FFDf6C;
-    animation-name: avada-kedavra;
-    animation-duration: 2s;
     cursor: pointer;
     margin: auto;
 }
