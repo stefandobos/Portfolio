@@ -1,11 +1,11 @@
 import React from 'react';
 import "./Projects.css";
-import Home_button from "../Useful/Home_button.js";
+import HomeButton from "../Useful/HomeButton.js";
 
 function Projects() {
     return(
         <div className="cnt-pr">
-            <Home_button />
+            <HomeButton />
             <div className='cnt-box'>
                 <a className='box-slide-pr1 slide_1' href='https://stefandobos.github.io/NewsStie/'></a>
                 <div className='descr'><div className='dsc-cont'>This is a kind of template for a news site. This project was made using React.js </div></div>

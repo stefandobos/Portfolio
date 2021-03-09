@@ -2,7 +2,7 @@ import './App.css';
 import Intro from "./Component/Intro/Intro.js"
 import Particles from 'react-particles-js';
 import { Component } from 'react';
-import { BrowserRouter, Route, Link, Router, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Projects from "./Component/Projects/Projects.js";
 import Challenges from './Component/Challenges/Challenges.js'
 import Footer from "./Component/Footer/Footer.js";
