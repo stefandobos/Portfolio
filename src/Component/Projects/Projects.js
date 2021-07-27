@@ -15,11 +15,11 @@ function Projects() {
                 </div>
                 <div className='cnt-box'>
                     <a className='box-slide-pr1 slide_1' href='https://stefandobos.github.io/NewsStie/' />
-                    <div className='descr'><div className='dsc-cont'>This is a kind of template for a news site. This project was made using React.js </div></div>
+                    <div className='descr'><div className='dsc-cont'>This is a template for a news site. This project was made using React.js </div></div>
                 </div>
                 <div className='cnt-box'>
                     <a className='box-slide-pr2 slide_1' href='https://stefandobos.github.io/shopify-react-project/' />
-                    <div className='descr'><div className='dsc-cont'>This is a e-commerce site. This project was made using React.js and Shopify.</div></div>
+                    <div className='descr'><div className='dsc-cont'>This is an e-commerce template. This project was made using React.js and Shopify.</div></div>
                 </div>
             </div>
             <div>
